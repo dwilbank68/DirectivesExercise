@@ -2,7 +2,7 @@
 
 Building a collection of directives you can reuse elsewhere.
 
-### 1 - Open the following in Firefox
+### 1 - Open index.html in Firefox
 
 because Chrome will enforce its CORS policy and refuse to work unless you install
 a special extension or take the time to tweak it
