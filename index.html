@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+    <script>
+
+        angular
+            .module('mainApp',[])
+            .directive('element01', element01Fn)                        // 1a
+            .controller('Element01Controller', Element01ControllerFn)   // 2a
+
+        function element01Fn() {                                        // 1b
+            return {
+                templateUrl: './element01.html',
+                controller: 'Element01Controller as el01'
+            }
+        }
+
+        function Element01ControllerFn () {                             // 2b
+            var vm = this;
+            vm.user_age = 28;
+        }
+
+    </script>
+</head>
+<body ng-app="mainApp">
+
+<element01></element01>
+
+</body>
+</html>
