@@ -48,7 +48,7 @@ a special extension or take the time to tweak it
     1. Create a directive and a directive function. (1a, 1b)
 
     2. Note that the directive function (1b) calls for a new
-     controller. Write that new controller and its function. (2a, 2b).
+     controller. (1d) Write that new controller and its function. (2a, 2b).
      Create some mock data that you want to send to your directive. (2c)
 
     3. Note that your directive also names a separate file (1c) that will
@@ -68,13 +68,17 @@ a special extension or take the time to tweak it
     When we do it this way, we are using the 'controller as' syntax instead of
     using '$scope'.
 
-    5. Make your directive visible in the browser as seen in line 3. You can
+    5. Make each new directive visible in the browser as seen in line 3. You can
     place your directives anywhere on the page by wrapping them in a grid system
-    like Bootstrap or Foundation.
+    like Bootstrap or Foundation. Fill the page with directives, or mix them with standard
+    HTML as you wish!
 
     6. Create a new html file for each directive, and write the
     corresponding angular code in your index.html file. Repeat several times
     until you have learned the process.
+
+    7. In following exercises, we will learn how to pass in data directly from line 3, and have
+    it wrapped in all the nice html and css you wrote in your directive.
 
 ##### * note
 
