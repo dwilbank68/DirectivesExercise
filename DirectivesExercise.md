@@ -45,14 +45,14 @@ a special extension or take the time to tweak it
 
 ### 2 - For each new piece of UI you build
 
-    1. Create a directive and a directive function. (1a, 1b)
+    1. Create a directive and a directive function in index.html. (just like lines 1a, 1b)
 
     2. Note that the directive function (1b) calls for a new
      controller. (1d) Write that new controller and its function. (2a, 2b).
      Create some mock data that you want to send to your directive. (2c)
 
     3. Note that your directive also names a separate file (1c) that will
-     sit in the same folder as index.html. Create that file and use html
+     sit in the same folder as index.html. Create that new file and use html
      and whatever classes and styles you want to make it pretty.
 
     // element01.html
