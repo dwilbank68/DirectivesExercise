@@ -84,11 +84,8 @@ a special extension or take the time to tweak it
 
     * Professionals would never write their angular code inside of script tags
     like we do in this example. Controllers and directives would also be in separate files
-    and seperate folders. This way, though, gives us a good way to practice for beginners.
-    * directives are normally placed in their own folder, and line 1c
-    would give the path to that folder
-    * some coders will not write seperate 'named' functions for their controllers
-    and directives. They will instead combine lines 1a and 1b, and combine lines 2a and 2b using
-    anonymous functions.
+    and seperate folders. Doing it all on one page, though, gives us a simple way to practice for beginners.
+    * directives are normally placed in their own folder, and line 1c would give the path to that folder
+    * some coders will not write seperate 'named' functions for their controllers and directives. They will instead combine lines 1a and 1b, and combine lines 2a and 2b using anonymous functions.
     Using Live Templates (a topic for another day), there is no extra typing involved
     in doing it the way we do it, with 'named' functions.
