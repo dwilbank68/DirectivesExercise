@@ -45,7 +45,7 @@ a special extension or take the time to tweak it
 
 ### 2 - For each new piece of UI you build
 
-    1. Create a directive and a directive function in index.html. (just like lines 1a, 1b)
+    1. Create a new directive and its directive function in index.html. (just like lines 1a, 1b)
 
     2. Note that the directive function (1b) calls for a new
      controller. (1d) Write that new controller and its function. (2a, 2b).
